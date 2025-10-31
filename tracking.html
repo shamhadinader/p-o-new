@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Start Head Info -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>P&O Nedlloyd Company | Tracking</title>
+    <meta data-n-head="ssr" name="theme-color" content="#f45050">
+    <meta data-n-head="ssr" data-hid="og:site_name" property="og:site_name" content="P&O Company">
+    <meta data-n-head="ssr" data-hid="og:type" property="og:type" content="website">
+    <meta data-n-head="ssr" data-hid="twitter:card" name="twitter:card" content="summary_large_image">
+    <meta data-n-head="ssr" data-hid="og:image" property="og:image" content="imgs/p&o-icon.png">
+    <meta data-n-head="ssr" data-hid="og:image:secure_url" property="og:image:secure_url" content="imgs/p&o-icon.png">
+    <meta data-n-head="ssr" data-hid="og:image:alt" property="og:image:alt" content="P&O Company">
+    <meta data-n-head="ssr" data-hid="twitter:image" name="twitter:image" content="imgs/p&o-icon.png">
+    <meta data-n-head="ssr" data-hid="charset" charset="utf-8">
+    <meta data-n-head="ssr" data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes">
+    <meta data-n-head="ssr" data-hid="apple-mobile-web-app-capable" name="apple-mobile-web-app-capable" content="yes">
+    <meta data-n-head="ssr" data-hid="apple-mobile-web-app-status-bar-style"
+        name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta data-n-head="ssr" data-hid="apple-mobile-web-app-title" name="apple-mobile-web-app-title"
+        content="P&O Company">
+    <meta data-n-head="ssr" data-hid="author" name="author" content="P&O Company">
+    <meta data-n-head="ssr" data-hid="i18n-og" property="og:locale" content="ar">
+    <meta data-n-head="ssr" data-hid="description" name="description" content="P&O Company">
+    <meta data-n-head="ssr" data-hid="og:title" property="og:title" content="P&O Company">
+    <meta data-n-head="ssr" data-hid="og:description" property="og:description" content="P&O Company">
+    <meta data-n-head="ssr" data-hid="twitter:title" name="twitter:title" content="P&O Company">
+    <meta data-n-head="ssr" data-hid="twitter:description" name="twitter:description" content="P&O Company">
+    <link data-n-head="ssr" rel="icon" type="image/png" href="imgs/p&o-icon.png">
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="imgs/p&o-icon.png">
+    <!-- End Head Info -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-yallow-color position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-dark " style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!--Start Navbar -->
+    <p class="text-center bg-yallow-color blue-color p-1 m-0 sticky-top">P&O Nedlloyd Company</p>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand m-2 d-inline" href="index.html">
+                <span class="bg-yallow-color text-white p-1 fw-bold h3 m-0">P&O</span><span
+                    class="bg-yallow-color text-white p-1 h3">|</span><span
+                    class="bg-yallow-color blue-color text-whited p-1 fw-bold h3 m-0">Nedlloyd</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 fw-bold" aria-current="page" href="index.html">Main</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 active" href="#">Enter tracking ID</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" aria-current="page" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" aria-current="page" href="services.html">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" aria-current="page" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="search ps-3 pe-3 d-none d-lg-block">
+                    <h3 class="yallow-color">P&O</h3>
+                </div>
+                <center>
+                    <a class="more mb-3 mt-3" href="#">Enter Tracking Id <i
+                            class="fas fa-long-arrow-alt-right"></i></a>
+                </center>
+            </div>
+        </div>
+    </nav>
+    <!--End Navbar -->
+
+    <!-- Start Form -->
+    <header id="header">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center justify-content-center">
+                <div class="col-lg-8 col-xl-7 col-xxl-6">
+                    <div class="my-5 text-start text-xl-start">
+                        <!-- <img src="imgs/icon-watad-2.png" width="64" alt="icon-watad-2.png"> -->
+                        <h1 class="fw-bolder yallow-color mb-2">Shipment & Container Tracking</h1>
+                        <p class="fw-normal blue-color mb-4" style="font-size: 18px;">Select your booking type from
+                            Ocean, Air or Land
+                            Shipping TR and enter your tracking number.</p>
+                        <form action="">
+                            <div class="input-group">
+                                <select style="background-color:#fff;color:var(--second-color);" id="num" name=""
+                                    class="input-elem">
+                                    <option value="ocean">Ocean cargo</option>
+                                    <option value="air">Air cargo</option>
+                                    <option value="lcl">LCL cargo</option>
+                                </select>
+                                <label for="num">Booking type</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" name="" id="num" class="input-elem" placeholder="Enter Your Number"
+                                    autocomplete="off" />
+                                <label for="num">Number</label>
+                            </div>
+                            <button class="btn more btn-track">Track</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+    </header>
+    <!-- End Form -->
+
+    <!-- TimeLine Start -->
+    <div class="tracker-container mt-5 mb-5">
+
+        <!-- Header Section -->
+        <div class="tracker-header">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1 class="display-6 fw-bold mb-3">Shipment Tracker</h1>
+                    <p class="mb-4">Real-time tracking with detailed action history</p>
+                    <div class="d-flex align-items-center gap-3">
+                        <span class="tracking-number">TRACKING #: TRK-984567</span>
+                        <span class="badge bg-light text-primary">IN TRANSIT</span>
+                    </div>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <div class="mt-3 mt-md-0">
+                        <p class="mb-1">Last Updated</p>
+                        <h5 class="mb-0">Jan 16, 2024 - 14:30</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Container ID Section -->
+        <div class="container-header">
+            <div class="container-id">CNTR-7894561230</div>
+            <p class="container-desc">
+                International shipping container with electronic goods. This shipment contains consumer electronics
+                and accessories destined for retail distribution across multiple locations.
+            </p>
+            <a class="more mb-3 mt-3" href="tracking.html">Print <i class="fas fa-print"></i></a>
+        </div>
+
+        <!-- Info Cards Grid -->
+        <div class="info-grid">
+            <div class="row g-4">
+                <!-- ID Container -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-barcode"></i>
+                        </div>
+                        <div class="info-title">ID Container</div>
+                        <div class="info-value">CNTR-7894561230</div>
+                        <div class="info-subtext">40ft High Cube Refrigerated Container</div>
+                    </div>
+                </div>
+
+                <!-- From -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <div class="info-title">From</div>
+                        <div class="info-value">Shanghai, China</div>
+                        <div class="info-subtext">Port of Shanghai - Yangshan Deep Water Port</div>
+                    </div>
+                </div>
+
+                <!-- To -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-title">To</div>
+                        <div class="info-value">Los Angeles, USA</div>
+                        <div class="info-subtext">Port of Los Angeles - Terminal B</div>
+                    </div>
+                </div>
+
+                <!-- Estimated Arrival Date -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="info-title">Estimated Arrival Date</div>
+                        <div class="info-value">Jan 25, 2024</div>
+                        <div class="info-subtext">Expected within 9 days based on current progress</div>
+                    </div>
+                </div>
+
+                <!-- Last Updated -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-title">Last Updated</div>
+                        <div class="info-value">2 hours ago</div>
+                        <div class="info-subtext">Jan 16, 2024 - 14:30 GMT</div>
+                    </div>
+                </div>
+
+                <!-- Last Location -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="info-card live-location">
+                        <div class="info-icon">
+                            <i class="fas fa-satellite-dish"></i>
+                        </div>
+                        <div class="info-title">Last Location</div>
+                        <div class="info-value">
+                            <span class="pulse-dot"></span>
+                            Pacific Ocean
+                            <span class="live-badge">LIVE</span>
+                        </div>
+                        <div class="info-subtext">
+                            Current position: 35.6895° N, 139.6917° E<br>
+                            Heading East at 18 knots
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modern Timeline -->
+        <div class="modern-timeline">
+            <div class="timeline-progress">
+                <div class="timeline-progress-bar"></div>
+            </div>
+
+            <!-- Point 1: Order Confirmed -->
+            <div class="timeline-item completed" style="animation-delay: 0.1s;">
+                <div class="timeline-marker">
+                    <div class="marker-icon">1</div>
+                </div>
+                <div class="timeline-content">
+                    <div class="point-header">
+                        <h3 class="point-title">Order Confirmed</h3>
+                        <p class="point-subtitle">Order received and processing started</p>
+                    </div>
+                    <div class="actions-grid">
+                        <div class="action-item completed">
+                            <div class="action-icon"><i class="fas fa-long-arrow-alt-right"></i></div>
+                            <div class="action-content">
+                                <div class="action-header">
+                                    <h6 class="action-name">Payment Processed</h6>
+                                    <span class="action-date">Jan 15, 10:30</span>
+                                </div>
+                                <p class="action-note">Payment successfully authorized and confirmed</p>
+                            </div>
+                        </div>
+                        <div class="action-item completed">
+                            <div class="action-icon"><i class="fas fa-long-arrow-alt-right"></i></div>
+                            <div class="action-content">
+                                <div class="action-header">
+                                    <h6 class="action-name">Payment Processed</h6>
+                                    <span class="action-date">Jan 15, 10:30</span>
+                                </div>
+                                <p class="action-note">Payment successfully authorized and confirmed</p>
+                            </div>
+                        </div>
+                        <div class="action-item completed">
+                            <div class="action-icon"><i class="fas fa-long-arrow-alt-right"></i></div>
+                            <div class="action-content">
+                                <div class="action-header">
+                                    <h6 class="action-name">Order Validated</h6>
+                                    <span class="action-date">Jan 15, 10:35</span>
+                                </div>
+                                <p class="action-note">All order details verified and confirmed</p>
+                            </div>
+                        </div>
+                        <div class="action-item completed">
+                            <div class="action-icon"><i class="fas fa-long-arrow-alt-right"></i></div>
+                            <div class="action-content">
+                                <div class="action-header">
+                                    <h6 class="action-name">Confirmation Sent</h6>
+                                    <span class="action-date">Jan 15, 10:40</span>
+                                </div>
+                                <p class="action-note">Order confirmation email delivered to customer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-link text-center">
+                        <a href="#" class="location-btn text-center">
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            View Order Center
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Point 2: Order Confirmed -->
+            <div class="timeline-item" style="animation-delay: 0.1s;">
+                <div class="timeline-marker">
+                    <div class="marker-icon">2</div>
+                </div>
+                <div class="timeline-content">
+                    <div class="point-header">
+                        <h3 class="point-title">Order Confirmed</h3>
+                        <p class="point-subtitle">Order received and processing started</p>
+                    </div>
+                    <div class="actions-grid">
+                        <div class="action-item">
+                            <div class="action-icon"><i class="fas fa-long-arrow-alt-right"></i></div>
+                            <div class="action-content">
+                                <div class="action-header">
+                                    <h6 class="action-name">Payment Processed</h6>
+                                    <span class="action-date">Jan 15, 10:30</span>
+                                </div>
+                                <p class="action-note">Payment successfully authorized and confirmed</p>
+                            </div>
+                        </div>
+                        <div class="action-item">
+                            <div class="action-icon"><i class="fas fa-long-arrow-alt-right"></i></div>
+                            <div class="action-content">
+                                <div class="action-header">
+                                    <h6 class="action-name">Payment Processed</h6>
+                                    <span class="action-date">Jan 15, 10:30</span>
+                                </div>
+                                <p class="action-note">Payment successfully authorized and confirmed</p>
+                            </div>
+                        </div>
+                        <div class="action-item">
+                            <div class="action-icon"><i class="fas fa-long-arrow-alt-right"></i></div>
+                            <div class="action-content">
+                                <div class="action-header">
+                                    <h6 class="action-name">Order Validated</h6>
+                                    <span class="action-date">Jan 15, 10:35</span>
+                                </div>
+                                <p class="action-note">All order details verified and confirmed</p>
+                            </div>
+                        </div>
+                        <div class="action-item">
+                            <div class="action-icon"><i class="fas fa-long-arrow-alt-right"></i></div>
+                            <div class="action-content">
+                                <div class="action-header">
+                                    <h6 class="action-name">Confirmation Sent</h6>
+                                    <span class="action-date">Jan 15, 10:40</span>
+                                </div>
+                                <p class="action-note">Order confirmation email delivered to customer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-link text-center">
+                        <a href="#" class="location-btn text-center">
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            View Order Center
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TimeLine End -->
+
+    <!-- Start Footer -->
+    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
+        <div class="row mt-0 mb-0 m-5 pt-5">
+            <div class="col-lg-7 col-md-6">
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <h3 class="yallow-color fw-bolder mb-4">Get In Touch</h3>
+                        <p><i class="fa fa-map-marker-alt mr-3"></i>Mersin - Turkey</p>
+                        <p><i class="fa fa-phone-alt mr-3"></i>+012 345 67890</p>
+                        <p><i class="fa fa-envelope mr-3"></i>hadi@example.com</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="yallow-color fw-bolder mb-4">Quick Links</h3>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white mb-2 link-footer active" href="#"><i
+                                    class="fa fa-angle-right mr-3"></i>Main</a>
+                            <a class="text-white mb-2 link-footer" href="about.html"><i
+                                    class="fa fa-angle-right mr-3"></i>About
+                                Us</a>
+                            <a class="text-white mb-2 link-footer" href="our-services.html"><i
+                                    class="fa fa-angle-right mr-3"></i>Our
+                                Services</a>
+                            <a class="text-white mb-2 link-footer" href="contact.html"><i
+                                    class="fa fa-angle-right mr-3"></i>Contact
+                                Us</a>
+                            <a class="text-white mb-2 link-footer" href="tracking.html"><i
+                                    class="fa fa-angle-right mr-3"></i>Enter
+                                Tracking Id</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 mb-5">
+                <div class="text-start">
+                    <h3 class="fw-bolder mb-3 yallow-color">Ready to pull a trigger. <br>
+                        Get a quote today.</h3>
+                    <p class="text-white">From state-of-the-art tracking systems that keep you informed every step
+                        of the way, to intelligent logistics solutions tailored to your specific needs and challenges,
+                        we’re dedicated to ensuring your journey with us is nothing short of exceptional.</p>
+                    <img src="imgs/logo-p&o.png" class="mb-3" width="150px" alt="icon-p&o.png">
+                    <h4>Copyright 2024/2025 <span class="yallow-color">P&O Nedlloyd</span> .</h4>
+                    <p>All Rights Reserved .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+    <!-- Start Back To Top -->
+    <a href="#header" class="back-to-top">
+        <i class="fas fa-arrow-up"></i></a>
+    <!-- End Back To Top -->
+</body>
+<script src="js/my-jquery.js"></script>
+<script src="js/main.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
+
+</html>
